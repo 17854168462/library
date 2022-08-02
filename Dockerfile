@@ -34,4 +34,6 @@
 
 #FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 
-FROM ghcr.io/googlecloudplatform/spark-operator:v1beta2-1.3.3-3.1.1
+#FROM ghcr.io/googlecloudplatform/spark-operator:v1beta2-1.3.3-3.1.1
+
+FROM gcr.io/spark-operator/spark-operator:v1beta2-1.2.0-3.0.0
