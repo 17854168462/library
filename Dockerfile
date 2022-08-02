@@ -32,4 +32,6 @@
 
 # FROM ghcr.io/spotify/flink-operator:v0.3.5
 
-FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+#FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+
+FROM ghcr.io/googlecloudplatform/spark-operator:v1beta2-1.3.7-3.1.1
